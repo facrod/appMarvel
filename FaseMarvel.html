@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/img/iconpagina.png">
+    <title>Fase Marvel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="d-flex sticky-top">
+        <nav class=" w-100 navbar navbar-expand-md d-flex">
+            <div class="ms-4 container-fluid align-items-center">
+                <a class="navbar-brand w-50"href="/"><img class="img-fluid"src="/assets/img/LogoMarvelAdictos.png" alt="Logo Adictos Marvel"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuresponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="menuresponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"> 
+                            <button class="bg-transparent border-0" >
+                                <a href="/index.html" class="nav-link active me-5 text-light">Inicio</a>
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#modalsuscripcion" class="bg-transparent border-0">
+                                <a class="nav-link me-5 text-light">Suscripcion</a> 
+                            </button>
+                        </li class="nav-item">
+                        <li>
+                            <button class="bg-transparent border-0">
+                                <a href="/contacto.html" class="nav-link me-5 text-light">Contacto</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="bg-transparent border-0">
+                                <a href="/login.html" class="nav-link me-5 text-light">Login</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="bg-transparent border-0">
+                                <a href="/nosotros.html" class="nav-link me-5 text-light">Nosotros</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      </header>
+    <div class=" container-fluid modal fade" id="modalsuscripcion" tabindex="-1" aria-labelledby="modalsuscripcionlabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark flex-grow-1">
+                <div class="modal-header">
+                    <p class="modal-title text-light" id="modalsuscripcionlabel">Recibí todas las novedades de Marvel por Email</p>
+                    <img class="img-fluid ms-auto"src="/assets/img/iconmodal.png" alt="Icono Marvel">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-nowrap row ">
+                    <form class="col-md-6 col-md-6 d-flex flex-column justify-content-around">
+                        <div class="d-flex flex-column">
+                            <label class="form-label bg-transparent text-light mb-2" for="">Nombre</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu nombre"  pattern="[a-zA-Z]+"  minlength="2" maxlength="25" type="text" required>
+                        </div>
+                        <div class="d-flex flex-column ">
+                            <label class=" form-label bg-transparent text-light mb-2" for="">Apellido</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu apellido"  pattern="[a-zA-Z]+"  minlength="2" maxlength="25" type="text" required>
+                        </div>
+                        <div class="d-flex flex-column" >
+                            <label class=" form-label bg-transparent text-light mb-2" for="">Email</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu Email" minlength="20" maxlength="60" type="email"  required >
+                        </div>
+                    </form>
+                    <div class="d-none d-xs-none d-md-block ms-3 w-50 col-md-4 col-12">
+                        <img class="img-fluid" src="/assets/img/imgmodal.png" alt="Logo Avengers">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger"> 
+                        <a class="text-decoration-none text-light"href="/"> Suscribirse </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- inicio pag card 1 -->
+    <main class="">
+        <div class="d-flex flex-wrap justify-content-center">
+            <h2 class="fw-bold text-danger text-center py-3 bg-dark w-100">Fase 4 De Marvel en Camino </h2>
+            <img class=" shadow-lg mb-5 bg-body rounded w-75 img-fluid mt-5 "src="/assets/img/imgcard1col1.jpg" alt="Peliculas de la fase 4 de marvel">
+            <p class=" fs-5 mt-2 px-5">Después del gran colofón a la Saga del Infinito que fue 'Vengadores: Endgame', el Universo Cinematográfico Marvel ha seguido expandiéndose hacia terrenos inexplorados. 'Bruja Escarlata y Visión' inauguraba a comienzos de 2021 la Fase 4, funcionando como toda una declaración de intenciones por parte de Marvel Studios, que prometía un mayor riesgo y experimentación con sus nuevos proyectos, entrelazando estrenos en cine y series en Disney+. Desde entonces, y en apenas dos años, el estudio ha lanzado siete películas, nueve series y dos especiales, que conforman la primera Fase de la que se conoce como la Saga del Multiverso, que abarcará tres Fases y concluirá con 'Avengers: Secret Wars'. La Fase 4 termina oficialmente con 'Black Panther: Wakanda Forever', tras la que el especial navideño de 'Guardianes de la Galaxia' ejercerá como epílogo. Los fans de Marvel han tenido dos años cargados de estrenos y emociones, pero muchos se están impacientando porque no tienen muy claro hacia dónde se dirige la saga.
+            Ha sido en una entrevista para Marvel.com durante la premiere de 'Wakanda Forever', en la que Feige lo ha expresado así: "La razón por la que 'Black Panther: Wakanda Forever' ancla la Fase 4 -junto al especial navideño de 'Guardianes de la Galaxia'- es porque las fases son sobre introducciones. Piensa en todos los personajes que hemos conocido en la Fase 4. Y ahora, por fin, al final de la Fase 4, mirándolo por fases, hemos conocido a un nuevo reino entero y un personaje que representa los cimientos de lo que hacemos en Marvel".
+            </p>
+        </div>
+        <div class="border border-danger border-start-0 border-end-0 px-3">
+            <h4 class="mt-2 text-center">Dejanos tu aporte Aqui!</h4>
+            <form id="post-comments" class="needs-validation">
+                <div class="mb-3">
+                    <label for="user-name-comment" class="form-label"></label>
+                    <input type="text" class="form-control" id="user-name-comment" placeholder="Asunto" pattern="[a-zA-Z]+" required="" minlength="2" maxlength="25">
+                </div>
+                <div class="mb-3">
+                    <label for="user-comment" class="form-label "></label>
+                    <textarea class="form-control" id="user-comment" placeholder="Danos tu opinion!" rows="3" minlength="2" maxlength="350"></textarea>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-orange text-light border border-1 mb-3" type="submit">Enviar Comentario</button>
+                </div>
+            </form>
+        </div>
+        <h4 class="my-2 text-center">Comentarios Anteriores</h4>
+        <div class="m-0">
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center" src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Carlos Laborda</p>
+                    <p>Hace 2 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold" >Opinion Sobre la Fase 4</p>
+                    <p>Una de las principales críticas es la desconexión entre producciones a lo largo de la cuarta fase del Universo Cinematográfico de Marvel.</p>
+                </div>
+            </div>
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center"src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">José Franco</p>
+                    <p>Hace 1 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold">Opinion Sobre la Fase 4</p>
+                    <p>El rumbo que esta tomando esta fase me parece muy interesante y tiene mucho potencial a futuro! Espero quienes sigan en el camino puedan conseguirlo.</p>
+                </div>
+            </div>
+            <div class=" d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center"src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Melina Jotallán</p>
+                    <p>Hace 2 días</p>
+                </div>
+                <div class="w-75"> 
+                    <p class="m-0 fw-bold">Opinion Sobre la Fase 4</p>
+                    <p>Esta nueva generación de personajes son más humanos, un poco más ambiguos y diversos.</p>
+                </div>
+            </div>
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center" src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Arnaldo Lucena</p>
+                    <p>Hace 4 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold">Opinion Sobre la Fase 4</p>
+                    <p>Me temo que están apurando demasiado la Fase 4. No me malinterpreten, me gusta lo que veo pero, no tengo ninguna prisa por consumirlo.</p>
+                </div>
+            </div>
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end ">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center" src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Celina Marquez</p>
+                    <p>Hace 4 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold">Opinion Sobre la Fase 4</p>
+                    <p>Solo he disfrutado un par de series. La mayoría han sido aburridas o directamente vergonzosas.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- fin pagina card 1 -->
+    <footer class=" d-flex justify-content-between p-4 align-items-center">
+        <div>
+            <img class="img-fluid"src="/assets/img/LogoMarvelAdictos.png" alt="logo-marvel-adictos">
+        </div>
+        <div class="container d-flex align-items-center flex-column">
+            <div>
+                <h4 class="d-none d-xs-none d-md-block text-danger">Seguinos en nuestras redes</h4>
+            </div>
+            <div class="align-self-center d-flex justify-content-center">
+                <a class="m-1" target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-facebook-48.png" alt="logo de facebook">
+                </a>
+                <a class="m-1" target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-instagram-48.png" alt="logo de instagram">
+                </a>
+                <a class="m-1 " target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-twitter-cuadrado-48.png" alt="logo de twitter">
+                </a>
+            </div>
+        </div>
+        <a class="text-decoration-none text-danger" href="/galeria.html">Galeria de Imagenes</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

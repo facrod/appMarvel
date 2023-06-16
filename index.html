@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/img/iconpagina.png">
+    <title>Pagina Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- header -->
+  <header class="d-flex sticky-top">
+    <nav class=" w-100 navbar navbar-expand-md d-flex">
+        <div class="ms-4 container-fluid align-items-center">
+            <a class="navbar-brand w-50"href="/"><img class="img-fluid"src="/assets/img/LogoMarvelAdictos.png" alt="Logo Adictos Marvel"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuresponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="menuresponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"> 
+                        <button class="bg-transparent border-0" >
+                            <a href="/index.html" class="nav-link active me-5 text-light">Inicio</a>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalsuscripcion" class="bg-transparent border-0">
+                            <a class="nav-link me-5 text-light">Suscripcion</a> 
+                        </button>
+                    </li class="nav-item">
+                    <li>
+                        <button class="bg-transparent border-0">
+                            <a href="/contacto.html" class="nav-link me-5 text-light">Contacto</a>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="bg-transparent border-0">
+                            <a href="/login.html" class="nav-link me-5 text-light">Login</a>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="bg-transparent border-0">
+                            <a href="/nosotros.html" class="nav-link me-5 text-light">Nosotros</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
+  <div class=" container-fluid modal fade" id="modalsuscripcion" tabindex="-1" aria-labelledby="modalsuscripcionlabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark flex-grow-1">
+            <div class="modal-header">
+                <p class="modal-title text-light" id="modalsuscripcionlabel">Recibí todas las novedades de Marvel por Email</p>
+                <img class="img-fluid ms-auto"src="/assets/img/iconmodal.png" alt="Icono Marvel">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex flex-nowrap row ">
+                <form class="col-md-6 col-md-6 d-flex flex-column justify-content-around">
+                    <div class="d-flex flex-column">
+                        <label class="form-label bg-transparent text-light mb-2" for="">Nombre</label>
+                        <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu nombre"  pattern="[a-zA-Z]+"  minlength="2" maxlength="25" type="text" required>
+                    </div>
+                    <div class="d-flex flex-column ">
+                        <label class=" form-label bg-transparent text-light mb-2" for="">Apellido</label>
+                        <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu apellido"  pattern="[a-zA-Z]+"  minlength="2" maxlength="25" type="text" required>
+                    </div>
+                    <div class="d-flex flex-column" >
+                        <label class=" form-label bg-transparent text-light mb-2" for="">Email</label>
+                        <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu Email" minlength="20" maxlength="60" type="email"  required >
+                    </div>
+                </form>
+                <div class="d-none d-xs-none d-md-block ms-3 w-50 col-md-4 col-12">
+                    <img class="img-fluid" src="/assets/img/imgmodal.png" alt="Logo Avengers">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-danger"> 
+                    <a class="text-decoration-none text-light"href="/"> Suscribirse </a>
+                </button>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- fin header -->
+  <main>
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/img/wanda.jpg" class="d-block w-100" alt="imagen de avengers">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/avengers.jpg" class="d-block w-100" alt="imagen de Wanda Maximoff">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/pantera-negra.jpg" class="d-block w-100" alt="Imagen de pantera negra atacando">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/moon-knight.jpg" class="d-block w-100" alt="imagen de moon knight posando">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/spiderman.jpg" class="d-block w-100" alt="imagen de spiderman lanzando telarañas">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/hulk.jpg" class="d-block w-100" alt="imagen de hulk atacando">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/fondo-de-trello.jpg" class="d-block w-100" alt="imagen de doctor strange, capitana marvel, capitan america y spiderman luchando contra enemigos">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/avengers-endgame.jpg" class="d-block w-100" alt="imagen de avengers endgame">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>      
+    </section>
+    <section class="  d-flex justify-content-evenly container-fluid flex-column flex-md-row ">
+      <!-- inicio primera columna con 4 entradas -->
+      <article class= "p-3 col-12 col-md-7  row d-flex justify-content-around align-content-around">
+        <div class="card col-md-10 col-lg-5 px-0 my-3 text-center" >
+          <div class="h-50 w-100 ">
+            <img src="/assets/img/imgcard1col1.jpg" class="card-img-top" alt="peliculas fase 4 marvel">
+          </div>
+          <div class="card-body">
+              <div class=" d-flex flex-column justify-content-around">
+                <h5 class="card-title col-12 fw-bold">Fase 4 del Universo Marvel</h5>
+                <p class="card-text">La fase 4 del Universo Marvel se está desarrollando y tenes que enterarte de todo lo que puede llegar a pasar mas adelante!Entrando a esta publicacion podrás ver los planes a futuro de Marvel!</p>
+              </div>
+              <a href="/FaseMarvel.html" class=" btn btn-primary mt-2">Ingresa Aqui para más</a>
+          </div>
+        </div>
+        <div class="card col-md-10 col-lg-5 px-0 my-3 text-center">
+          <div class="h-50 w-100">
+            <img src="/assets/img/thor-love-and-thunder-logo-1563871305.jpg" class="card-img-top" alt="portada Thor amor y trueno">
+          </div>
+          <div class="card-body">
+            <div class=" d-flex flex-column justify-content-around">
+              <h5 class="card-title col-12 fw-bold">Thor love and thunder</h5>
+              <p class="card-text">En la nueva entrega del Dios del Trueno Christian Bale se estrenará como, Gorr, el Carnicero de Dioses, el nuevo villano marvelita en un título en el que también veremos a los Guardianes de la Galaxia.</p>
+            </div>
+            <a href="/Thor.html" class=" btn btn-primary mt-2">Ingresa Aqui para más</a>
+          </div>
+        </div>
+        <div class="card col-md-10 col-lg-5 px-0 my-3 text-center" >
+          <div class="h-50 w-100">
+            <img src="/assets/img/imgcard3col1.jpg" class="card-img-top" alt="portada wakanda forever">
+          </div>
+          <div class="card-body">
+            <div class=" d-flex flex-column justify-content-around">
+              <h5 class="card-title col-12 fw-bold">Wakanda Forever</h5>
+              <p class="card-text">Black Panther: Wakanda Forever es un tributo a la muerte de Chadwick Boseman. Pero con una habilidad que sorprende, la película es también una mirada política y cultural a un universo por completo nuevo.</p>
+            </div>
+            <a href="/BlackPanther.html" class=" btn btn-primary mt-2">Ingresa Aqui para más</a>
+          </div>
+        </div>
+        <div class="card col-md-10 col-lg-5 px-0 my-3 text-center">
+          <div class="h-50 w-100">
+            <img src="/assets/img/imgcard4col1.jpg" class="card-img-top" alt="portada she hulk">
+          </div>
+          <div class="card-body">
+            <div class=" d-flex flex-column justify-content-around">
+              <h5 class="card-title col-12 fw-bold">¿Que pasó con She-Hulk?</h5>
+              <p class="card-text">La serie de Marvel transmitida por la plataforma de streaming Disney+ dió mucho de que hablar debido a ciertas escenas que no fueron tomadas de la mejor manera por los fans. Enterate que dijeron en esta publicacion.</p>
+            </div>
+            <a href="/SheHulk.html" class=" btn btn-primary mt-2">Ingresa Aqui para más</a>
+          </div>
+        </div>
+      </article>
+      <!-- fin de 1era columna 4 entradas -->
+      <article class="col-md-4 d-flex flex-column  border-0 shadow-lg m-3 align-items-center">
+        <div class="d-flex col-9 ms-3 p-3 ">
+          <div class="input-group mb-3 row">
+            <span class="input-group-text col-3" id="inputGroup-sizing-default"><img class="img-fluid"src="/assets/img/icon-lupa.png" alt="imagen lupa"></span>
+            <input type="text" class="form-control col-4" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Busqueda" required>
+          </div>
+        </div>
+        <div class="list-group">
+          <a class="btn text-light" id="button-cat" href="error404.html" role="button ">Estrenos</a>
+          <a class="btn text-light" id="button-cat" href="error404.html" role="button">Recomendaciones</a>
+          <a class="btn text-light" id="button-cat" href="error404.html" role="button">Criticas</a>
+          <a class="btn text-light" id="button-cat" href="error404.html" role="button">Blog DC</a>
+          <a class="btn text-light" id="button-cat" href="error404.html" role="button">Streaming</a>
+        </div>
+        <div class="mt-5 d-none d-xs-none d-md-block">
+          <h4 class="w-100 text-center mt-5">Trailer Wakanda Forever</h4>
+          <div class="align-self-start  col-3">
+            <video class="ms-4 border border-2" width="240"controls autoplay muted loop>
+              <source src="/assets/videos/videopublicidad.mp4"  type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="ms-3 mt-5 text-center d-none d-xs-none d-md-block">
+          <a class="fs-4  text-light text-decoration-none " target="_blank" href="https://www.disneyplus.com/home">Suscribite a Disney Plus</a>
+          <img width="240" alt="Imagen Publicidad Disney Plus" src="/assets/img/disneyplus.jpg">
+        </div>
+        <!-- se corrige con mq -->
+      </article>
+    </section>
+    <nav class="container-fluid">
+      <ul class="pagination p-5 mb-0 justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link">Anterior</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="/">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="/error404.html">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="/error404.html">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="/error404.html">Siguiente</a>
+        </li>
+      </ul>
+    </nav>
+  </main>
+  <footer class=" d-flex justify-content-between p-4 align-items-center">
+    <div>
+        <img class="img-fluid"src="/assets/img/LogoMarvelAdictos.png" alt="logo-marvel-adictos">
+    </div>
+    <div class="container d-flex align-items-center flex-column">
+        <div>
+            <h4 class="d-none d-xs-none d-md-block text-danger">Seguinos en nuestras redes</h4>
+        </div>
+        <div class="align-self-center d-flex justify-content-center">
+              <a class="m-1" target="_blank" href="/error404.html">
+                  <img class="img-fluid" src="/assets/img/icons8-facebook-48.png" alt="logo de facebook">
+              </a>
+              <a class="m-1" target="_blank" href="/error404.html">
+                  <img class="img-fluid" src="/assets/img/icons8-instagram-48.png" alt="logo de instagram">
+              </a>
+              <a class="m-1 " target="_blank" href="/error404.html">
+                  <img class="img-fluid" src="/assets/img/icons8-twitter-cuadrado-48.png" alt="logo de twitter">
+              </a>
+        </div>
+    </div>
+    <a class="text-decoration-none text-danger" href="/galeria.html">Galeria de Imagenes</a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>

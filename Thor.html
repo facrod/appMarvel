@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/img/iconpagina.png">
+    <title>Thor love and thunder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="d-flex sticky-top">
+        <nav class=" w-100 navbar navbar-expand-md d-flex">
+            <div class="ms-4 container-fluid align-items-center">
+                <a class="navbar-brand w-50"href="/"><img class="img-fluid"src="/assets/img/LogoMarvelAdictos.png" alt="Logo Adictos Marvel"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuresponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="menuresponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"> 
+                            <button class="bg-transparent border-0" >
+                                <a href="/index.html" class="nav-link active me-5 text-light">Inicio</a>
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#modalsuscripcion" class="bg-transparent border-0">
+                                <a class="nav-link me-5 text-light">Suscripcion</a> 
+                            </button>
+                        </li class="nav-item">
+                        <li>
+                            <button class="bg-transparent border-0">
+                                <a href="/contacto.html" class="nav-link me-5 text-light">Contacto</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="bg-transparent border-0">
+                                <a href="/login.html" class="nav-link me-5 text-light">Login</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="bg-transparent border-0">
+                                <a href="/nosotros.html" class="nav-link me-5 text-light">Nosotros</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      </header>
+    <div class=" container-fluid modal fade" id="modalsuscripcion" tabindex="-1" aria-labelledby="modalsuscripcionlabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark flex-grow-1">
+                <div class="modal-header">
+                    <p class="modal-title text-light" id="modalsuscripcionlabel">Recibí todas las novedades de Marvel por Email</p>
+                    <img class="img-fluid ms-auto"src="/assets/img/iconmodal.png" alt="Icono Marvel">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-nowrap row ">
+                    <form class="col-md-6 col-md-6 d-flex flex-column justify-content-around">
+                        <div class="d-flex flex-column">
+                            <label class="form-label bg-transparent text-light mb-2" for="">Nombre</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu nombre"  pattern="[a-zA-Z]+"  minlength="2" maxlength="25" type="text" required>
+                        </div>
+                        <div class="d-flex flex-column ">
+                            <label class=" form-label bg-transparent text-light mb-2" for="">Apellido</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu apellido"  pattern="[a-zA-Z]+"  minlength="2" maxlength="25" type="text" required>
+                        </div>
+                        <div class="d-flex flex-column" >
+                            <label class=" form-label bg-transparent text-light mb-2" for="">Email</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu Email" minlength="20" maxlength="60" type="email"  required >
+                        </div>
+                    </form>
+                    <div class="d-none d-xs-none d-md-block ms-3 w-50 col-md-4 col-12">
+                        <img class="img-fluid" src="/assets/img/imgmodal.png" alt="Logo Avengers">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger"> 
+                        <a class="text-decoration-none text-light"href="/"> Suscribirse </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- inicio pag card 1 -->
+    <main class="">
+        <div class="d-flex flex-wrap justify-content-center">
+            <h2 class="fw-bold text-danger text-center py-3 bg-dark w-100">THOR Love and Thunder</h2>
+            <img class=" shadow-lg mb-5 bg-body rounded w-50 img-fluid mt-5 "src="/assets/img/thor3.jpg" alt="Thor y los personajes principales del filme">
+            <p class=" fs-5 mt-2 px-5">Thor Love and Thunder llegaba a Disney+ recientemente tras recaudar en cines un total de 700 millones de dólares a nivel global, una cifra discreta en comparación a otras superproducciones de Marvel Studios aunque quedándose cerca de los 854 millones que logró Thor Ragnarok en su momento. Sea como fuere, ya podemos disfrutar de la nueva aventura de Thor, Mighty Thor y compañía desde la comodidad de nuestro hogar, una versión que ha sufrido algunos retoques en su estreno doméstico a nivel de CGI. Y es que como los fans recordarán, la película recibió algunas críticas por ciertos efectos digitales que parecían no estar a la altura.</p>
+            <p class=" fs-5 mt-2 px-5">“La película encuentra a Thor en un viaje diferente a todo lo que ha enfrentado: una búsqueda de la paz interior. Pero su retiro es interrumpido por un asesino galáctico conocido como Gorr el carnicero de Dioses, que busca la extinción de los dioses. Para combatir la amenaza, Thor pide la ayuda del rey Valkyrie, Korg y su ex novia Jane Foster, quien, para sorpresa de Thor, empuña inexplicablemente su martillo mágico, Mjolnir, como Mighty Thor. Juntos, se embarcan en una angustiosa aventura cósmica para descubrir el misterio de la venganza del Dios Carnicero y detenerlo antes de que sea demasiado tarde”</p>
+        </div>
+        <div class="border border-danger border-start-0 border-end-0 px-3">
+            <h4 class="mt-2 text-center">Dejanos tu aporte Aqui!</h4>
+            <form id="post-comments" class="needs-validation">
+                <div class="mb-3">
+                    <label for="user-name-comment" class="form-label"></label>
+                    <input type="text" class="form-control" id="user-name-comment" placeholder="Asunto" pattern="[a-zA-Z]+" required="" minlength="2" maxlength="25">
+                </div>
+                <div class="mb-3">
+                    <label for="user-comment" class="form-label "></label>
+                    <textarea class="form-control" id="user-comment" placeholder="Danos tu opinion!" rows="3" minlength="2" maxlength="350"></textarea>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-orange text-light border border-1 mb-3" type="submit">Enviar Comentario</button>
+                </div>
+            </form>
+        </div>
+        <h4 class="my-2 text-center">Comentarios Anteriores</h4>
+        <div class="m-0">
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center" src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Carola Barquet</p>
+                    <p>Hace 2 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold" >Opinion Thor love and thunder</p>
+                    <p>Thor Love and Thunder es la cuarta película del dios del trueno, que nos entrega un mensaje sobre amor, sobre buscar un propósito, algo  que proteger y que nos de fuerza para seguir luchando, alguien a quien amar y poder seguir gracias al amor.</p>
+                </div>
+            </div>
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center"src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Oscar Andrada</p>
+                    <p>Hace 3 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold">Opinion Thor love and thunder</p>
+                    <p>Esta secuela es espectacular, Digna de ser la cuarte entrega de Thor con una ambientación similar a Thor Ragnarok y con una reducción de  la comedia, también de ser la primera película de Thor en donde esta ausente Loki.</p>
+                </div>
+            </div>
+            <div class=" d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center"src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Marcos Herrera</p>
+                    <p>Hace 4 días</p>
+                </div>
+                <div class="w-75"> 
+                    <p class="m-0 fw-bold">Opinion Thor love and thunder</p>
+                    <p>¡Una fantasía de película para todos los amantes de la saga 'Thor'¡¡ Divertida, cautivadora, emotiva y emocionante!</p>
+                </div>
+            </div>
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center" src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Silvana Sing</p>
+                    <p>Hace 4 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold">Opinion Thor love and thunder</p>
+                    <p>Es una muy buena película si son amantes y seguidores de las películas de Thor. Hay pocos momentos que cambiaría pues creo que exagera en la comedia.</p>
+                </div>
+            </div>
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end ">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center" src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Osvaldo Costas </p>
+                    <p>Hace 5 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold">Opinion Thor love and thunder</p>
+                    <p>Thor love and thunder cuenta con el mismo tono cómico que  Ragnarok; con una comedia que en muchos momentos puede parecer absurda, Thor 4 sigue siendo una película entretenida de principio a fin. </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- fin pagina card 1 -->
+    <footer class=" d-flex justify-content-between p-4 align-items-center">
+        <div>
+            <img class="img-fluid"src="/assets/img/LogoMarvelAdictos.png" alt="logo-marvel-adictos">
+        </div>
+        <div class="container d-flex align-items-center flex-column">
+            <div>
+                <h4 class="d-none d-xs-none d-md-block text-danger">Seguinos en nuestras redes</h4>
+            </div>
+            <div class="align-self-center d-flex justify-content-center">
+                <a class="m-1" target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-facebook-48.png" alt="logo de facebook">
+                </a>
+                <a class="m-1" target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-instagram-48.png" alt="logo de instagram">
+                </a>
+                <a class="m-1 " target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-twitter-cuadrado-48.png" alt="logo de twitter">
+                </a>
+            </div>
+        </div>
+        <a class="text-decoration-none text-danger" href="/galeria.html">Galeria de Imagenes</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
+

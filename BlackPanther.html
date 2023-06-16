@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/img/iconpagina.png">
+    <title>Black Panther</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="d-flex sticky-top">
+        <nav class=" w-100 navbar navbar-expand-md d-flex">
+            <div class="ms-4 container-fluid align-items-center">
+                <a class="navbar-brand w-50"href="/"><img class="img-fluid"src="/assets/img/LogoMarvelAdictos.png" alt="Logo Adictos Marvel"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuresponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="menuresponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"> 
+                            <button class="bg-transparent border-0" >
+                                <a href="/index.html" class="nav-link active me-5 text-light">Inicio</a>
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#modalsuscripcion" class="bg-transparent border-0">
+                                <a class="nav-link me-5 text-light">Suscripcion</a> 
+                            </button>
+                        </li class="nav-item">
+                        <li>
+                            <button class="bg-transparent border-0">
+                                <a href="/contacto.html" class="nav-link me-5 text-light">Contacto</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="bg-transparent border-0">
+                                <a href="/login.html" class="nav-link me-5 text-light">Login</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="bg-transparent border-0">
+                                <a href="/nosotros.html" class="nav-link me-5 text-light">Nosotros</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      </header>
+    <div class=" container-fluid modal fade" id="modalsuscripcion" tabindex="-1" aria-labelledby="modalsuscripcionlabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark flex-grow-1">
+                <div class="modal-header">
+                    <p class="modal-title text-light" id="modalsuscripcionlabel">Recibí todas las novedades de Marvel por Email</p>
+                    <img class="img-fluid ms-auto"src="/assets/img/iconmodal.png" alt="Icono Marvel">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-nowrap row ">
+                    <form class="col-md-6 col-md-6 d-flex flex-column justify-content-around">
+                        <div class="d-flex flex-column">
+                            <label class="form-label bg-transparent text-light mb-2" for="">Nombre</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu nombre"  pattern="[a-zA-Z]+"  minlength="2" maxlength="25" type="text" required>
+                        </div>
+                        <div class="d-flex flex-column ">
+                            <label class=" form-label bg-transparent text-light mb-2" for="">Apellido</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu apellido"  pattern="[a-zA-Z]+"  minlength="2" maxlength="25" type="text" required>
+                        </div>
+                        <div class="d-flex flex-column" >
+                            <label class=" form-label bg-transparent text-light mb-2" for="">Email</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu Email" minlength="20" maxlength="60" type="email"  required >
+                        </div>
+                    </form>
+                    <div class="d-none d-xs-none d-md-block ms-3 w-50 col-md-4 col-12">
+                        <img class="img-fluid" src="/assets/img/imgmodal.png" alt="Logo Avengers">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger"> 
+                        <a class="text-decoration-none text-light"href="/"> Suscribirse </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- inicio pag card 1 -->
+    <main class="">
+        <div class="d-flex flex-wrap justify-content-center">
+            <h2 class="fw-bold text-danger text-center py-3 bg-dark w-100">Black Panther Wakanda Forever</h2>
+            <img class=" shadow-lg mb-5 bg-body rounded w-50 img-fluid mt-5 "src="/assets/img/black-panther-wakanda-forever-poster.webp" alt="Imagen de Pantera negra">
+            <p class=" fs-5 mt-2 px-5">'Black Panther: Wakanda Forever' llega para salvar sobre la bocina la primera etapa de la Saga del Multiverso; y lo hace con un blockbuster que vuelve a aportar cierta madurez al MCU minimizando el factor cómico y combinando con acierto thriller geopolítico, tintes de cine bélico y los cánones del cine superheróico contemporáneo en una aventura tan sólida como esperanzadora.
+            </p>
+            <p class=" fs-5 mt-2 px-5">Puede que lo primero que sorprende de la nueva 'Black Panther' sea la enorme consistencia que exhibe pese a haberse enfrentado a unas circunstancias tan complejas como dramáticas durante su proceso de creación. La pérdida de Chadwick Boseman obligó a descartar el material escrito y empezar técnicamente de cero, pero Ryan Coogler y compañía han superado la adversidad proyectando su foco en el elemento más importante de cualquier filme: los personajes.</p>
+        </div>
+        <div class="border border-danger border-start-0 border-end-0 px-3">
+            <h4 class="mt-2 text-center">Dejanos tu aporte Aqui!</h4>
+            <form id="post-comments" class="needs-validation">
+                <div class="mb-3">
+                    <label for="user-name-comment" class="form-label"></label>
+                    <input type="text" class="form-control" id="user-name-comment" placeholder="Asunto" pattern="[a-zA-Z]+" required="" minlength="2" maxlength="25">
+                </div>
+                <div class="mb-3">
+                    <label for="user-comment" class="form-label "></label>
+                    <textarea class="form-control" id="user-comment" placeholder="Danos tu opinion!" rows="3" minlength="2" maxlength="350"></textarea>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-orange text-light border border-1 mb-3" type="submit">Enviar Comentario</button>
+                </div>
+            </form>
+        </div>
+        <h4 class="my-2 text-center">Comentarios Anteriores</h4>
+        <div class="m-0">
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center" src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Lisandro Contreras</p>
+                    <p>Hace 1 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold" >Opinion Wakanda Forever</p>
+                    <p>Me gustó toda la película: como se desarrolla y se introducen nuevos personajes.. se podría resolver mucho antes. </p>
+                </div>
+            </div>
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center"src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Sabina Suarez</p>
+                    <p>Hace 1 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold">Opinion Wakanda Forever</p>
+                    <p>La película de Black Panther es en mi opinión la mejor película de fase 4 de Marvel.</p>
+                </div>
+            </div>
+            <div class=" d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center"src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Matias Menchini</p>
+                    <p>Hace 2 días</p>
+                </div>
+                <div class="w-75"> 
+                    <p class="m-0 fw-bold">Opinion Wakanda Forever</p>
+                    <p>Le doy un 10! Por incluir aspectos de la Cultura Maya que siempre nos hemos preguntado, qué fue de ellos y a manera de ficción nos dejan con un buen sabor de boca el pensar que fue así.</p>
+                </div>
+            </div>
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end mb-2">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center" src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Javier García</p>
+                    <p>Hace 4 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold">Opinion Wakanda Forever</p>
+                    <p>Es una película a la cuál se le agradece inmensamente el homenaje a Chadwick, bien merecido y cada parte genera una melancolía disiente en el público.</p>
+                </div>
+            </div>
+            <div class="  d-flex justify-content-around align-items-baseline p-3 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end ">
+                <img class="img-fluid d-none d-xs-none d-md-block align-self-center" src="/assets/img/userimage.png" alt="">
+                <div class="mx-3 align-self-center mt-3">
+                    <p class="m-0 fw-bold">Lorena Gimenez</p>
+                    <p>Hace 4 días</p>
+                </div>
+                <div class="w-75">
+                    <p class="m-0 fw-bold">Opinion Wakanda Forever</p>
+                    <p>Dura casi tres horas y se te pasan muy amenas, buen desarrollo y buen cgi.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- fin pagina card 1 -->
+    <footer class=" d-flex justify-content-between p-4 align-items-center">
+        <div>
+            <img class="img-fluid"src="/assets/img/LogoMarvelAdictos.png" alt="logo-marvel-adictos">
+        </div>
+        <div class="container d-flex align-items-center flex-column">
+            <div>
+                <h4 class="d-none d-xs-none d-md-block text-danger">Seguinos en nuestras redes</h4>
+            </div>
+            <div class="align-self-center d-flex justify-content-center">
+                <a class="m-1" target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-facebook-48.png" alt="logo de facebook">
+                </a>
+                <a class="m-1" target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-instagram-48.png" alt="logo de instagram">
+                </a>
+                <a class="m-1 " target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-twitter-cuadrado-48.png" alt="logo de twitter">
+                </a>
+            </div>
+        </div>
+        <a class="text-decoration-none text-danger" href="/galeria.html">Galeria de Imagenes</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

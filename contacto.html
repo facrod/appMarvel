@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/img/iconpagina.png">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="d-flex sticky-top">
+        <nav class=" w-100 navbar navbar-expand-md d-flex">
+            <div class="ms-4 container-fluid align-items-center">
+                <a class="navbar-brand w-50"href="/"><img class="img-fluid"src="/assets/img/LogoMarvelAdictos.png" alt="Logo Adictos Marvel"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuresponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="menuresponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"> 
+                            <button class="bg-transparent border-0" >
+                                <a href="/index.html" class="nav-link active me-5 text-light">Inicio</a>
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#modalsuscripcion" class="bg-transparent border-0">
+                                <a class="nav-link me-5 text-light">Suscripcion</a> 
+                            </button>
+                        </li class="nav-item">
+                        <li>
+                            <button class="bg-transparent border-0">
+                                <a href="/contacto.html" class="nav-link me-5 text-light">Contacto</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="bg-transparent border-0">
+                                <a href="/login.html" class="nav-link me-5 text-light">Login</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="bg-transparent border-0">
+                                <a href="/nosotros.html" class="nav-link me-5 text-light">Nosotros</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class=" container-fluid modal fade" id="modalsuscripcion" tabindex="-1" aria-labelledby="modalsuscripcionlabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark flex-grow-1">
+                <div class="modal-header">
+                    <p class="modal-title text-light" id="modalsuscripcionlabel">Recibí todas las novedades de Marvel por Email</p>
+                    <img class="img-fluid ms-auto"src="/assets/img/iconmodal.png" alt="Icono Marvel">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-nowrap row ">
+                    <form class="col-md-6 col-md-6 d-flex flex-column justify-content-around">
+                        <div class="d-flex flex-column">
+                            <label class="form-label bg-transparent text-light mb-2" for="">Nombre</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu nombre"  pattern="[a-zA-Z]+"  minlength="2" maxlength="25" type="text" required>
+                        </div>
+                        <div class="d-flex flex-column ">
+                            <label class=" form-label bg-transparent text-light mb-2" for="">Apellido</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu apellido"  pattern="[a-zA-Z]+"  minlength="2" maxlength="25" type="text" required>
+                        </div>
+                        <div class="d-flex flex-column" >
+                            <label class=" form-label bg-transparent text-light mb-2" for="">Email</label>
+                            <input class="text-light form-control bg-transparent" placeholder="Escribe aquí tu Email" minlength="20" maxlength="60" type="email"  required >
+                        </div>
+                    </form>
+                    <div class="d-none d-xs-none d-md-block ms-3 w-50 col-md-4 col-12">
+                        <img class="img-fluid" src="/assets/img/imgmodal.png" alt="Logo Avengers">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger"> 
+                        <a class="text-decoration-none text-light"href="/"> Suscribirse </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <!-- inicio -->
+        <div class="container shadow-lg ">
+            <div class="row pt-3">
+                <div class="col text-light text-center p-3 ">
+                    <h1>Formulario de contacto</h1>
+                </div>
+            </div>    
+            <div class="row p-3">   
+                <div class="col border border-danger" style="background-color:black">
+                    <div>
+                        <h2 class="text-center text-light mt-3">Visita nuestra sucursal de Barrio Norte</h2>
+                        <iframe class="rounded ms-2" alt="Mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.518094948691!2d-65.19762618495703!3d-26.823468983166062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c1ec2ea3e7d%3A0x33c7751d6c3fb909!2sAv.%20Avellaneda%20648%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1664281333451!5m2!1ses!2sar" width="300" height="300" allowfullscreen=""  referrerpolicy="no-referrer-when-downgrade" title="Mapa"></iframe>
+                    </div>
+                </div>
+                <div class="col border border-danger" style="background-color:#000000">
+                    <form >
+                        <div class="d-block-flex p-8 bd-highlight mt-5  text-light text-center">
+                            <h2 class="text-light">¿Te interesaría recibir novedades sobre los estrenos?</h2>
+                            <label for="si">Me interesa</label>
+                            <input type="radio" name="informacion" value="me interesa" id="si" />
+                            <label for="no">No me interesa </label>
+                            <input type="radio" name="informacion" value="no me interesa" id="no" />
+                        </div>
+                        <div class="d-block-flex p-8 bd-highlight  mb-2 mt-4 me-2  text-dark text-center">
+                            <input class="mb-2" type="text" placeholder="Ingresa tu nombre"/> 
+                            <input type="email" placeholder="Ingresa tu Email"/>
+                        </div>
+                        <div class="d-block-flex p-8 bd-highlight  mb-2  text-light text-center">
+                            <label for="comentario"> Dejá tu comentario aquí </label>
+                            <br>
+                            <textarea class="mt-3 me-4 mx-3" name="" id="comentario" cols="" rows="" ></textarea>
+                            <br>
+                            <input class="mt-3" type="submit" value="Enviar"/>
+                        </div> 
+                    </form>
+                </div>
+                <div class="col text-light border border-danger" style="background-color:#000000">
+                    <div class="p-3">
+                        <div class="d-flex align-items-center mt-2">
+                            <img src="/assets/img/icons8-composing-mail-60.png" alt="ícono de mail" />
+                            <p class="mt-3">Podés escribirnos a contacto@marveladictos.es</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-2">
+                            <img src="/assets/img/icons8-romantic-places-60.png" alt="ícono de localización" />
+                            <p class="mt-3"> Podés encontrarnos en varios paises</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-2">
+                            <img src="/assets/img/icons8-phone-60.png" alt="ícono de teléfono" />
+                            <p class="mt-3">Comunicate con el Universo Marvel  122-456-7890</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-2">
+                            <img src="/assets/img/icons8-pencil-drawing-60.png" alt="ícono de lápiz" />
+                            <p class="mt-3">Nos importa lo que pensas ¡No olvides dejarnos tu comentario!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <img class="col-9" src="/assets/img/gif1.gif" alt="Gif animado de personajes de Marvel" />
+        </div>
+    </main>
+    <footer class=" d-flex justify-content-between p-4 align-items-center">
+        <div>
+            <img class="img-fluid"src="/assets/img/LogoMarvelAdictos.png" alt="logo-marvel-adictos">
+        </div>
+        <div class="container d-flex align-items-center flex-column">
+            <div>
+                <h4 class="d-none d-xs-none d-md-block text-danger">Seguinos en nuestras redes</h4>
+            </div>
+            <div class="align-self-center d-flex justify-content-center">
+                <a class="m-1" target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-facebook-48.png" alt="logo de facebook">
+                </a>
+                <a class="m-1" target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-instagram-48.png" alt="logo de instagram">
+                </a>
+                <a class="m-1 " target="_blank" href="/error404.html">
+                    <img class="img-fluid" src="/assets/img/icons8-twitter-cuadrado-48.png" alt="logo de twitter">
+                </a>
+            </div>
+        </div>
+        <a class="text-decoration-none text-danger" href="/galeria.html">Galeria de Imagenes</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>

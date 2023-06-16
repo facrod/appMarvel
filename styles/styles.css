@@ -1,0 +1,76 @@
+/* Estilos utilizados en el desarrollo de marvel adictos */
+/* estilos principales */
+body {
+    font-family: 'Josefin Sans', sans-serif!important;
+    color: whitesmoke!important;
+}
+header {
+    background-color: black!important;
+}
+main {
+    background: linear-gradient(to right, #870000, #190a05)!important;
+}
+footer {
+    background-color: black!important;
+}
+/* estilos generales */
+li button a:hover {
+    text-decoration: dashed;
+    background: rgb(29, 28, 28);
+    scale: 1.2;
+}
+.navbar-toggler,
+.navbar-toggler:hover,
+.navbar-toggler:active,
+.navbar-toggler:visited,
+.navbar-toggler:focus ,
+.btn.btn-orange.text-light.border.border-1.mb-3:hover,
+.btn.btn-primary.mt-2:hover  {
+    background-color: #b80000!important;
+    border-color: #b80000!important;
+}
+.card {
+    background: linear-gradient(to bottom, #870000, #190a05)!important;
+
+}
+.card.col-md-10.col-lg-5.px-0.my-3:hover {
+    scale: 1.01;
+}
+.img {
+    background-image: url(/assets/img/ironman.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+.list-group a:hover {
+    scale: 1.03;
+}
+textarea {
+    resize: none!important;
+}
+/* Animaciones pagina 404 */
+.imgt img {
+    animation-name: spiderman;
+    animation-duration: 2s;
+    height: 30%;
+    position: relative;
+    animation-timing-function: ease;
+    transform: rotateY(180deg);
+}
+@keyframes spiderman {
+    0% {top: -800px;}
+    100% {top: 0px; left: 0px;}
+}
+.text404 {
+    animation-name: texto;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes texto {
+    0% {left:-800px;}
+    100% {left:0px;}
+    
+}
+#galeria {
+    background: linear-gradient(#870000, #190a05);
+    color:black
+}
